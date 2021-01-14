@@ -1,8 +1,10 @@
 
-export const App = () => {
-  return (
-    <div className="App">
-      <h1>Prueba</h1>
-    </div>
-  );
-}
+import { Header } from './Components/Header/index'
+
+import "./Styles/GlobalStyles.scss";
+
+export const App = () => (
+  <>
+    <Header />
+  </>
+)

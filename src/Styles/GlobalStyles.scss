@@ -1,0 +1,28 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Montserrat", Sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul, li, h1, h2, h3, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+body {
+  background: #f3f3f3;
+  height: 100vh;
+  margin: 0 0;
+  width: 100vw;
+}
