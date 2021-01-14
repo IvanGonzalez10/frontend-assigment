@@ -14,7 +14,7 @@ export const Header = () => {
         </button>
         <input type="text" placeholder="¿Qué estás buscando?" />
         <img src="./assets/home.svg" alt="Inicio" />
-        <h5>Inicio ▼</h5>
+        <a href='/'><h5>Inicio ▼</h5></a>
       </div>
       <div className="config-container">
         <div className='icon-container'>

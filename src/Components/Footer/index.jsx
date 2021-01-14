@@ -9,9 +9,15 @@ export const Footer = () => {
         <img src="./assets/logo.png" alt="Logo" />
       </div>
       <div className="policy-container">
-        <h5>Preguntas frecuentes</h5>
-        <h5>Contactenos</h5>
-        <h5>Informacion</h5>
+        <a href="/">
+          <h5>Preguntas frecuentes</h5>
+        </a>
+        <a href="/">
+          <h5>Contáctenos</h5>
+        </a>
+        <a href="/">
+          <h5>Información</h5>
+        </a>
       </div>
       <div className="rights-container">
         <h4>DocRed © 2021. Todos los derechos reservados</h4>

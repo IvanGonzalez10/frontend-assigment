@@ -15,19 +15,19 @@
 }
 
 .search-container {
-  width: 70%;
+  width: 67%;
   height: 70%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding-left: 30px;
-  border-right: 1px solid #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .search-container button{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background: #fff;
   border: none;
   margin-right: 2px;
@@ -47,11 +47,17 @@
 }
 
 .search-container input{
-  width: 200px;
-  height: 30px;
+  width: 280px;
+  height: 35px;
   border: none;
   border-bottom-right-radius: 15px;
   margin-right: 40px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.search-container input::placeholder{ 
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .search-container input:focus {
@@ -59,24 +65,30 @@
 }
 
 .search-container img{
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+.search-container a {
+  text-decoration: none;
 }
 
 .search-container h5 {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   margin: 5px;
   letter-spacing: 0.5px;
   font-weight: 200;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .config-container {
-  width: 15%;
+  width: 18%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  padding-right: 30px;
+  padding-left: 5px;
 }
 
 .icon-container {
@@ -90,7 +102,7 @@
 .icon-container button{
   position: fixed;
   top: 3%;
-  right: 11%;
+  right: 13.5%;
   width: 13px;
   height: 13px;
   font-size: 9px;
@@ -122,8 +134,8 @@
 }
 
 .profile-container img {
-  width: 30px;  
-  height: 30px;
+  width: 32px;  
+  height: 32px;
   border: 2px solid #fff;
   border-radius: 15px;
   margin-right: 3px;
