@@ -11,24 +11,55 @@ export const Home = () => {
         </div>
         <div className="information-container">
           <h1>Lorem ipsum dolor: Volutpat consequat</h1>
-          <button>Guardas</button>
+          <button>Guardar</button>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div className="description-container">
+          <img src="./assets/image.png" alt="imagen de logo" />
           <div>
             <h2>Noticias DocRed</h2>
-            <h3>Hace 12 h  |  Publicado: 17/01/18  |  Lectura: 3 min.</h3>
+            <div className="sub-container">
+              <h2>Hace 12 h</h2>
+              <h3>Publicado: 17/01/18</h3>
+              <h4>Lectura: 3 min.</h4>
+            </div>
           </div>
+        </div>
+        <div className="btns-container">
           <button>Medicina interna</button>
           <button>Pediatria</button>
           <button>Obstreticia</button>
         </div>
         <div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veniam, voluptatum, iste autem odit atque dolore suscipit incidunt laborum deleniti, doloribus nemo nulla! Recusandae quaerat exercitationem tempora deleniti reiciendis obcaecati.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veniam, voluptatum, iste autem odit atque dolore suscipit incidunt laborum deleniti, doloribus nemo nulla! Recusandae quaerat exercitationem tempora deleniti reiciendis obcaecati.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veniam, voluptatum, iste autem odit atque dolore suscipit incidunt laborum deleniti, doloribus nemo nulla! Recusandae quaerat exercitationem tempora deleniti reiciendis obcaecati.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veniam, voluptatum, iste autem odit atque dolore suscipit incidunt laborum deleniti, doloribus nemo nulla! Recusandae quaerat exercitationem tempora deleniti reiciendis obcaecati.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis veniam, voluptatum, iste autem odit atque dolore suscipit incidunt laborum deleniti, doloribus nemo nulla! Recusandae quaerat exercitationem tempora deleniti reiciendis obcaecati.</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+            veniam, voluptatum, iste autem odit atque dolore suscipit incidunt
+            laborum deleniti, doloribus nemo nulla! Recusandae quaerat
+            exercitationem tempora deleniti reiciendis obcaecati.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+            veniam, voluptatum, iste autem odit atque dolore suscipit incidunt
+            laborum deleniti, doloribus nemo nulla! Recusandae quaerat
+            exercitationem tempora deleniti reiciendis obcaecati.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+            veniam, voluptatum, iste autem odit atque dolore suscipit incidunt
+            laborum deleniti, doloribus nemo nulla! Recusandae quaerat
+            exercitationem tempora deleniti reiciendis obcaecati.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+            veniam, voluptatum, iste autem odit atque dolore suscipit incidunt
+            laborum deleniti, doloribus nemo nulla! Recusandae quaerat
+            exercitationem tempora deleniti reiciendis obcaecati.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+            veniam, voluptatum, iste autem odit atque dolore suscipit incidunt
+            laborum deleniti, doloribus nemo nulla! Recusandae quaerat
+            exercitationem tempora deleniti reiciendis obcaecati.
+          </p>
         </div>
         <div>
           <h4>Destacar</h4>
