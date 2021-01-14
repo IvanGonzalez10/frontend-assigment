@@ -56,8 +56,7 @@ export const Home = () => {
             veniam, voluptatum, iste autem odit atque dolore suscipit incidunt
             laborum deleniti, doloribus nemo nulla! Recusandae quaerat
             exercitationem tempora deleniti reiciendis obcaecati. Lorem ipsum
-            dolor, sit amet consectetur adipisicing elit. Omnis veniam,
-            volup.
+            dolor, sit amet consectetur adipisicing elit. Omnis veniam, volup.
           </p>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
@@ -73,10 +72,19 @@ export const Home = () => {
             exercitationem tempora deleniti obcaecati.
           </p>
         </div>
-        <div>
-          <h4>Destacar</h4>
-          <h4>Comentar</h4>
-          <h4>Compartir</h4>
+        <div className="option-container">
+          <div className="star-container">
+            <img src="./assets/star.svg" alt="" />
+            <h4>Destacar</h4>
+          </div>
+          <div className="comment-container">
+            <img src="./assets/comment.svg" alt="" />
+            <h4>Comentar</h4>
+          </div>
+          <div className="share-container">
+            <img src="./assets/share.svg" alt="" />
+            <h4>Compartir</h4>
+          </div>
         </div>
       </div>
       <div className="little-container">

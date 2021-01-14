@@ -154,6 +154,80 @@
   text-align: justify;
 }
 
+.option-container{
+  width: 60%;
+  height: 40px;
+  padding: 2px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #1b7fc798;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: -25px;
+  margin-bottom: 30px;
+}
+
+.option-container img {
+  width: 25px;
+  height: 25px;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-container img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.star-container h4 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-container img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.comment-container h4 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.share-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-container img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.share-container h4 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .little-container {
   height: auto;
   width: 30%;
