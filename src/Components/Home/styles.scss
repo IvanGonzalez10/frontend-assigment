@@ -139,8 +139,19 @@
   margin: 5px;
   border: none;
   border-radius: 3px;
-  background: #c9e4f783;
+  background: #c9e4f767;
   color: #1b80c7;
+}
+
+.text-container {
+  width: 100%;
+  padding: 2.5% 5.5%;
+}
+
+.text-container p {
+  margin-bottom: 30px;
+  line-height: 25px;
+  text-align: justify;
 }
 
 .little-container {
