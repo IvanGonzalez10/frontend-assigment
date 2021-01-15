@@ -91,7 +91,138 @@ export const Home = () => {
         <div className="title-container">
           <h1>Noticias relacionadas</h1>
         </div>
-        <div></div>
+        <div className="other-news-container">
+          <div className="little-news-container">
+            <div className="image-little-news-container">
+              <span className='one'>Noticia</span>
+              <img src="./assets/sea.jpg" alt="Noticia" />
+            </div>
+            <div className="box-news-container">
+              <h4>
+                Lorem ipsum dolor: <br /> Volutpat consequat
+              </h4>
+              <h5>Por: Lorem ipsum dolor</h5>
+              <div className="news-images-container">
+                <div className="little-star-container">
+                  <img src="./assets/star.svg" alt="" />
+                  <h5>50</h5>
+                </div>
+                <div className="little-comment-container">
+                  <img src="./assets/comment.svg" alt="" />
+                  <h5>40</h5>
+                </div>
+                <div className="little-watch-container">
+                  <img src="./assets/watch.svg" alt="" />
+                  <h5>75</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="little-news-container">
+            <div className="image-little-news-container">
+              <span className='two'>Noticia</span>
+              <img src="./assets/sea.jpg" alt="Noticia" />
+            </div>
+            <div className="box-news-container">
+              <h4>
+                Lorem ipsum dolor: <br /> Volutpat consequat
+              </h4>
+              <h5>Por: Lorem ipsum dolor</h5>
+              <div className="news-images-container">
+                <div className="little-star-container">
+                  <img src="./assets/star.svg" alt="" />
+                  <h5>50</h5>
+                </div>
+                <div className="little-comment-container">
+                  <img src="./assets/comment.svg" alt="" />
+                  <h5>40</h5>
+                </div>
+                <div className="little-watch-container">
+                  <img src="./assets/watch.svg" alt="" />
+                  <h5>75</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="little-news-container">
+            <div className="image-little-news-container">
+              <span className='three'>Noticia</span>
+              <img src="./assets/sea.jpg" alt="Noticia" />
+            </div>
+            <div className="box-news-container">
+              <h4>
+                Lorem ipsum dolor: <br /> Volutpat consequat
+              </h4>
+              <h5>Por: Lorem ipsum dolor</h5>
+              <div className="news-images-container">
+                <div className="little-star-container">
+                  <img src="./assets/star.svg" alt="" />
+                  <h5>50</h5>
+                </div>
+                <div className="little-comment-container">
+                  <img src="./assets/comment.svg" alt="" />
+                  <h5>40</h5>
+                </div>
+                <div className="little-watch-container">
+                  <img src="./assets/watch.svg" alt="" />
+                  <h5>75</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="little-news-container">
+            <div className="image-little-news-container">
+              <span className='four'>Noticia</span>
+              <img src="./assets/sea.jpg" alt="Noticia" />
+            </div>
+            <div className="box-news-container">
+              <h4>
+                Lorem ipsum dolor: <br /> Volutpat consequat
+              </h4>
+              <h5>Por: Lorem ipsum dolor</h5>
+              <div className="news-images-container">
+                <div className="little-star-container">
+                  <img src="./assets/star.svg" alt="" />
+                  <h5>50</h5>
+                </div>
+                <div className="little-comment-container">
+                  <img src="./assets/comment.svg" alt="" />
+                  <h5>40</h5>
+                </div>
+                <div className="little-watch-container">
+                  <img src="./assets/watch.svg" alt="" />
+                  <h5>75</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="little-news-container">
+            <div className="image-little-news-container">
+              <span className='five'>Noticia</span>
+              <img src="./assets/sea.jpg" alt="Noticia" />
+            </div>
+            <div className="box-news-container">
+              <h4>
+                Lorem ipsum dolor: <br /> Volutpat consequat
+              </h4>
+              <h5>Por: Lorem ipsum dolor</h5>
+              <div className="news-images-container">
+                <div className="little-star-container">
+                  <img src="./assets/star.svg" alt="" />
+                  <h5>50</h5>
+                </div>
+                <div className="little-comment-container">
+                  <img src="./assets/comment.svg" alt="" />
+                  <h5>40</h5>
+                </div>
+                <div className="little-watch-container">
+                  <img src="./assets/watch.svg" alt="" />
+                  <h5>75</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

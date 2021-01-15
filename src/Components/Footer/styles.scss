@@ -1,5 +1,5 @@
 .footer-container {
-  height: 10vh;
+  height: 12vh;
   width: 100vw;
   background: #1b80c7;
   display: flex;
@@ -9,8 +9,13 @@
 }
 
 .logo-container {
-  width: 15%;
-  margin-left: 50px;
+  width: 18%;
+  margin-left: 20px;
+}
+
+.logo-container img{
+  width: 190px;
+  height: 75px;
 }
 
 .policy-container {
@@ -43,8 +48,8 @@
 }
 
 .rights-container h4 {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 15px;
   font-weight: 200;
   letter-spacing: 0.5px;
 }
