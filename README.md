@@ -6,4 +6,4 @@ Require node.js
 - "npm run start" to the development environment.
 - "npm run build" to the production environment.
 
-Watch the App in the next URL: 
+Watch the App in the next URL: https://docred-test.vercel.app/
